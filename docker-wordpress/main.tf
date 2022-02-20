@@ -139,7 +139,7 @@ resource "aws_instance" "Docker_Host" {
   }
 
   provisioner "file" {
-    source      = "~/project/Vscode/docker-wordpress/docker-compose.yml"
+    source      = "./docker-compose.yml"
     destination = "/home/ec2-user/docker-compose.yml"
   }
 
