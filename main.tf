@@ -132,7 +132,7 @@ resource "aws_instance" "Docker_Host" {
   #Connection Through SSH
   connection {
     type        = "ssh"
-    private_key = file("./Pap_Key")
+    private_key = file("./Pap_key")
     user        = "ec2-user"
     host        = self.public_ip
     #timeout     =  3001
