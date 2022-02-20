@@ -62,3 +62,6 @@ variable "type" {
   default     = "t2.small"
   description = "instance type"
 }
+variable "TF_ACCESS_KEY" {}
+variable "TF_SECRET_KEY" {}
+ 
