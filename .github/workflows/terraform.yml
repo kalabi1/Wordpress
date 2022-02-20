@@ -89,5 +89,5 @@ jobs:
 # #       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
 #       run: terraform apply -auto-approve
       
-    - name: Terraform destroy
-      run: terraform destroy 
+    - name: Terraform apply
+      run: terraform apply -auto-approve
